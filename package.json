@@ -1,0 +1,27 @@
+{
+    "name": "challenger-deep",
+    "displayName": "Challenger Deep ",
+    "description": "Challenger Deep",
+    "publisher": "adammmmm",
+    "repository": {
+        "type" : "git",
+        "url" : "https://github.com/adammmmm/challenger-deep-vscode"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Challenger Deep",
+                "uiTheme": "vs-dark",
+                "path": "./themes/challenger-deep-color-theme.json"
+            }
+        ]
+    },
+    "icon": "icon.png"
+}
