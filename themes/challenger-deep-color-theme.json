@@ -78,6 +78,7 @@
 				"constant.numeric",
 				"constant.language",
 				"constant.character",
+				"keyword.const.go",
 				"constant.other",
 			],
 			"settings": {
@@ -103,6 +104,8 @@
 			"name": "Keyword Control Flow",
 			"scope": [
 				"keyword.control.flow",
+				"keyword.control.go",
+				"keyword.var.go",
 			],
 			"settings": {
 				"foreground": "#ff8080"
@@ -112,6 +115,10 @@
 			"name": "Keyword Control Import",
 			"scope": [
 				"keyword.control.import",
+				"keyword.import.go",
+				"keyword.type.go",
+				"keyword.struct.go",
+				"keyword.interface.go",
 			],
 			"settings": {
 				"foreground": "#95ffa4"
@@ -131,6 +138,7 @@
 			"name": "Function, Generic",
 			"scope": [
 				"meta.function-call.generic",
+                "keyword.function.go",
 			],
 			"settings": {
 				"foreground": "#65b2ff"
@@ -149,6 +157,7 @@
 			"name": "Keyword, Operator, Logical",
 			"scope": [
 				"keyword.operator.logical",
+				"keyword.operator.assignment.go",
 			],
 			"settings": {
 				"foreground": "#63f2f1"
